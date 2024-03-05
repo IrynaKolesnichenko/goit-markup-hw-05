@@ -474,7 +474,7 @@
     </footer>
 
     <div class="backdrop is-open">
-        <div class="modal"><button class="close-modal" type="close-button">x</button>
+        <div class="modal"><button class="close-modal" type="button">x</button>
             <p class="form-title">Leave your contacts and we will call you back</p>
             <form class="form">
                 <div class="form-item">
@@ -484,9 +484,18 @@
                     <label class="item-label" for="phone-number" type="tel">Phone</label>
                     <input class="input-item" id="phone-number" type="tel" name="phone-number"></div>
                 <div class="form-item">
-                    <label class="item-label" for="email" type="text">E-mail</label>
+                    <label class="item-label" for="email" type="text">Email</label>
                     <input class="input-item" id="email" type="email" name="email"></div>
+                <div class="form-item">
+                    <label class="item-label" for="email" type="text">Comment</label>
+                    <textarea class="comment-form" name="comment" placeholder="Text input"></textarea>
+                </div>
             </form>
+            <div class="checkbox-group">
+                <input class="input-checkbox" type="checkbox">
+                <p class="checkbox-text">I accept the terms and conditions of the <span class="checkbox-text-color">Privacy Policy</span></p> 
+            </div>
+
             <button class="send-button" type="submit">Send</button>
     </div>
     </div>
