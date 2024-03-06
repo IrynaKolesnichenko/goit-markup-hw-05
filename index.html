@@ -474,12 +474,17 @@
     </footer>
 
     <div class="backdrop is-open">
-        <div class="modal"><button class="close-modal" type="button">x</button>
+        <div class="modal"><button class="close-modal" type="button">
+            <svg class="close-modal-icon" width="8" height="8" aria-label="close icon">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
             <p class="form-title">Leave your contacts and we will call you back</p>
             <form class="form">
                 <div class="form-item">
                     <label class="item-label" for="user-name" type="text">Name</label>
-                    <input class="input-item" id="user-name" type="text" name="user-name"></div>
+                    <input class="input-item" id="user-name" type="text" name="user-name">
+                </div>
                 <div class="form-item">
                     <label class="item-label" for="phone-number" type="tel">Phone</label>
                     <input class="input-item" id="phone-number" type="tel" name="phone-number"></div>
@@ -493,7 +498,7 @@
             </form>
             <div class="checkbox-group">
                 <input class="input-checkbox" type="checkbox">
-                <p class="checkbox-text">I accept the terms and conditions of the <span class="checkbox-text-color">Privacy Policy</span></p> 
+                <p class="checkbox-text">I accept the terms and conditions of the <a href="" class="checkbox-text-color">Privacy Policy</a></p> 
             </div>
 
             <button class="send-button" type="submit">Send</button>
