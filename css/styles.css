@@ -625,6 +625,7 @@ background-color: #31d0aa;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    margin-bottom: 24px;
 }
 
 .footer-input-item::placeholder {
@@ -738,12 +739,12 @@ background-color: #31d0aa;
     margin-bottom: 16px;
 }
 
-.form-item {
-    margin-bottom: 16px;
-}
-
 .form-item:not(:last-child) {
     margin-bottom: 8px;
+}
+
+.form-item-comment {
+    margin-bottom: 16px;
 }
 
 .item-label {
@@ -863,9 +864,13 @@ position: absolute;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    margin-left: 24px;
 }
 
 .form-own-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -878,6 +883,9 @@ position: absolute;
 }
 
 .form-own-checkbox-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 16px;
     height: 16px;
     fill: #ffffff;
