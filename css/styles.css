@@ -821,6 +821,9 @@ background-color: #31d0aa;
     border-color: #4d5ae5;
     outline: transparent;
 }
+.backdrop-form-user span:last-child {
+    display: inline-flex;
+}
 
 .checkbox-group {
     display: inline-flex;
