@@ -637,7 +637,7 @@ background-color: #31d0aa;
     min-width: 165px;
     height: 40px;
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -720,6 +720,7 @@ background-color: #31d0aa;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-modal:hover,
 .close-modal:focus {
     border: none;
     background-color: #404bbf;
@@ -870,9 +871,9 @@ background-color: #31d0aa;
 }
 
 .form-own-checkbox {
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
