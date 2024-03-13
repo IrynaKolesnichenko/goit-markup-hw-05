@@ -890,7 +890,7 @@ background-color: #31d0aa;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999999999;
+    z-index: 9999999;
 }
 
 .form-own-checkbox-icon {
