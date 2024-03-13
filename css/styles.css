@@ -863,6 +863,7 @@ background-color: #31d0aa;
 }
 
 .checkbox-text {
+    display: inline-flex;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -871,7 +872,7 @@ background-color: #31d0aa;
 }
 
 .form-own-checkbox {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
