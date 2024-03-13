@@ -633,7 +633,7 @@ background-color: #31d0aa;
 }
 
     
-.subscribe-button {
+.subscribe-btn {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -714,10 +714,10 @@ background-color: #31d0aa;
 }
 .close-modal-icon {
     position: absolute;
+    margin: 7px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-modal:hover,
 .close-modal:focus {
     border: none;
     background-color: #404bbf;
@@ -838,7 +838,7 @@ background-color: #31d0aa;
 }
 
 .visually-hidden {
-position: absolute;
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -876,9 +876,6 @@ position: absolute;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     fill: transparent;
 }
 
