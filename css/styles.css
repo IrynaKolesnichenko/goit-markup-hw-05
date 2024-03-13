@@ -845,6 +845,8 @@ background-color: #31d0aa;
 
 .visually-hidden {
     position: absolute;
+    top: 0;
+    left: 0;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -854,6 +856,7 @@ background-color: #31d0aa;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    z-index: 1;
 }
 
 .input-checkbox:checked + 
@@ -884,6 +887,10 @@ background-color: #31d0aa;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
 }
 
 .form-own-checkbox-icon {
@@ -902,6 +909,7 @@ background-color: #31d0aa;
     line-height: 133%;
     text-decoration: underline;
     color: #4d5ae5;
+    padding-left: 3px;
 }
 
 .send-button {
