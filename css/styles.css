@@ -821,9 +821,6 @@ background-color: #31d0aa;
     border-color: #4d5ae5;
     outline: transparent;
 }
-.backdrop-form-user span:last-child {
-    display: inline-flex;
-}
 
 .checkbox-group {
     display: inline-flex;
@@ -873,7 +870,7 @@ background-color: #31d0aa;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-left: 24px;
+    margin-left: 2px;
 }
  .form-own-checkbox {
     width: 16px;
@@ -884,11 +881,11 @@ background-color: #31d0aa;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 9999999;
     display: inline-flex;
+    margin-right: 8px;
 }
 
 .form-own-checkbox-icon {
